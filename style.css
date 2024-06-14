@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    height: 60px; /* Specify the height of the navbar */
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Adjust padding for the nav links */
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    padding-top: 80px; /* Adjust based on the height of the navbar */
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Change background color when scrolling */
+.scrolled {
+    background-color: #444;
+}
